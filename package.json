@@ -1,5 +1,5 @@
 {
-  "name": "nbt.js",
+  "name": "nbt-parser",
   "version": "0.1.0",
   "description": "Minecraft NBT (NamedBinary Tags) parser for Node.js",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "files": ["dist/**/*"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tigercrl/nbt-js.git"
+    "url": "git+https://github.com/Tigercrl/nbt-parser.git"
   },
   "keywords": [
     "nbt",
@@ -20,11 +20,11 @@
     "serializer"
   ],
   "author": "Tigercrl",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/Tigercrl/nbt-js/issues"
+    "url": "https://github.com/Tigercrl/nbt-parser/issues"
   },
-  "homepage": "https://github.com/Tigercrl/nbt-js#readme",
+  "homepage": "https://github.com/Tigercrl/nbt-parser#readme",
   "devDependencies": {
     "@types/pako": "^2.0.3",
     "typescript": "^5.5.4"

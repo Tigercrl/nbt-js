@@ -16,9 +16,9 @@ npm install nbt-js
 
 ```typescript
 // Importing
-const NBT = require('nbt-js');
+const NBT = require('nbt-parser');
 // or
-import NBT from "nbt-js";
+import NBT from "nbt-parser";
 
 // Parse NBT
 const nbt = NBT.parseJSON({ key: "value" });
