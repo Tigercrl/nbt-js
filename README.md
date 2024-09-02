@@ -1,4 +1,4 @@
-# NBT-JS
+# NBT-Parser
 
 Minecraft NBT (NamedBinary Tags) parser for Node.js
 
@@ -9,7 +9,7 @@ Minecraft NBT (NamedBinary Tags) parser for Node.js
 
 ## Installation
 ```
-npm install nbt-js
+npm install nbt-parser
 ```
 
 ## Usage
