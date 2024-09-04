@@ -27,6 +27,7 @@ const nbt = NBT.parseSNBT("{key:value}");
 
 // Dumping NBT
 nbt.toJSON();
+nbt.toJSONString();
 nbt.toNBT('gzip', 'java');
 nbt.toSNBT('formatted');
 
