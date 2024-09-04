@@ -6,7 +6,9 @@
   "scripts": {
     "build": "tsc"
   },
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tigercrl/nbt-parser.git"
@@ -30,6 +32,8 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@types/json-bigint": "^1.0.4",
+    "json-bigint": "^1.0.0",
     "pako": "^2.1.0"
   }
 }

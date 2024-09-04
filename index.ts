@@ -3,6 +3,7 @@ import {BinaryCompression, Edition, SNBTCompression} from "./src/FileFormat";
 import NBTError from "./src/NBTError";
 import {gzip, inflate} from "pako";
 import CompoundPayload from "./src/tag/payloads/CompoundPayload";
+import * as JSONBig from 'json-bigint'
 
 export default class NBT {
     private rootTag: Tag;
@@ -38,6 +39,10 @@ export default class NBT {
 
     toJSON(): object {
         return this.rootTag.toJSON();
+    }
+
+    toJSONString(): string {
+        return JSONBig.stringify(this.toJSON());
     }
 
     toSNBT(compress: SNBTCompression): string {
